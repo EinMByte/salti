@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://salti/locale/options.dtd">
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<prefwindow
+    id = "options-window"
+    title = "&options-window.title;"
+    buttons = "accept, cancel"
+    xmlns = "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+>
+    <prefpane>
+    <preferences>
+        <preference id="salti-host" type="string" name="extensions.salti.host" />
+        <preference id="salti-port" type="int" name="extensions.salti.port" />
+    </preferences>
+    <vbox>
+        <label control="salti-host-textbox" value="&host-field.label;" />
+        <textbox id="salti-host-textbox" preference="salti-host" />
+    </vbox>
+    <vbox>
+        <label control="salti-port-textbox" value="&port-field.label;" />
+        <textbox id="salti-port-textbox" preference="salti-port" />
+    </vbox>
+    </prefpane>
+</prefwindow>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<overlay id="jmk" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript" src="menu.js" />
+<menubar id="main-menubar">
+    <menu label="∫alti">
+    <menupopup>
+       <menuitem label="Settings" oncommand="saltiMenu.showSettings();"/>
+       <menuitem label="About" oncommand="saltiMenu.showAbout();"/>
+    </menupopup>
+    </menu>
+</menubar>
+</overlay>
