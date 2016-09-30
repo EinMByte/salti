@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "\u222balti",
+  "version": "0.0",
+
+  "description": "\u222balti is an I2P extension for firefox.",
+
+  "browser_action": {
+    "default_title": "\u222balti"
+  },
+  "applications": {
+  "gecko": {
+    "id": "salti@kovri.i2p",
+    "strict_min_version": "42.0",
+    "strict_max_version": "50.*"
+  }
+}
+}
