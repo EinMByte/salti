@@ -13,7 +13,7 @@
   "gecko": {
     "id": "salti@kovri.i2p",
     "strict_min_version": "42.0",
-    "strict_max_version": "50.*"
+    "strict_max_version": "51.*"
   }
 }
 }
